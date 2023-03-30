@@ -6,14 +6,14 @@ public class Exercicio_1 {
 		
 		Scanner leia = new Scanner(System.in);
 		
-		int salario,abono, novoSalario;
+		int salario,abonoSalarial, novoSalario;
 		
 		System.out.println("Digite o salário:");
 		salario = leia.nextInt();
 		System.out.println("Digite o abono: ");
-		abono = leia.nextInt();
+		abonoSalarial = leia.nextInt();
 		
-		System.out.println("O seu novo salário é: " + (salario+abono));
+		System.out.println("O seu novo salário é: " + (salario+abonoSalarial));
 		
 		
 		
